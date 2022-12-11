@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPFtartarUI.MVVM.View
+namespace WPFtartarUI
 {
     /// <summary>
-    /// RecentTartarDataView.xaml에 대한 상호 작용 논리
+    /// Login.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class RecentTartarDataView : UserControl
+    public partial class Login : Window
     {
-        public RecentTartarDataView()
+        public Login()
         {
             InitializeComponent();
         }

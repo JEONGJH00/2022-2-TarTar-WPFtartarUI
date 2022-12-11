@@ -23,14 +23,6 @@
                 <view:DiseaseInfomationView/>
             </DataTemplate>
 
-            <DataTemplate DataType="{x:Type viewModel:RecentTartarDataViewModel}">
-                <view:RecentTartarDataView/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type viewModel:BeforeTartarDataViewModel}">
-                <view:RecentTartarDataView/>
-            </DataTemplate>
-
         </ResourceDictionary>
     </Application.Resources>
 </Application>

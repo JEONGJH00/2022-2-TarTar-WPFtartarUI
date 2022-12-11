@@ -27,12 +27,12 @@
                 </TextBlock.RenderTransform>
             </TextBlock>
 
-            <Image Source="\Images\Tartar.PNG" Stretch="Fill" Height="260" Width="440" HorizontalAlignment="Center" Margin="0,-15,0,0"/>
+            <Image Source="\Images\Home1.png" Stretch="Fill" Margin="0,0,0,0" Height="200" Width="200"/>
 
             <TextBlock Text="치석의 성분인 포피린이 405nm 파장의 빛에 반응하여 붉은 형광색을 띄는 점을"
                                    Foreground="White"
                                    FontSize="14"
-                                   FontFamily="Berlin Sans FB Demi" Width="675" Margin="20,35,-237,0" HorizontalAlignment="Center"/>
+                                   FontFamily="Berlin Sans FB Demi" Width="675" Margin="20,44,-237,0" HorizontalAlignment="Center"/>
             <TextBlock Text="이용하여 치석 검출 및 진단하는 시스템이다."
                                    Foreground="White"
                                    FontSize="14"

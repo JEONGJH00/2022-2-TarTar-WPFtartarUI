@@ -38,7 +38,7 @@
                  VerticalAlignment="Center"
                  HorizontalAlignment="Center"
                  Foreground="White"
-                 FontSize="21" FontWeight="Normal" FontFamily="Global Sans Serif"/>
+                 FontSize="18" FontWeight="Normal" FontFamily="Global Sans Serif"/>
 
             <StackPanel Grid.Row="1">
 
@@ -65,14 +65,12 @@
                              Style="{StaticResource MenuButtonTheme}"
                              Command="{Binding DiseaseInformationCommand}"/>
 
-                <RadioButton Content="회원가입"
+                <RadioButton x:Name="LoginBtn" Content="      로그인"
                     Height="50"
                     Foreground="White"
                     FontSize="14"
                     Style="{StaticResource MenuButtonTheme}"
-                    Command="{Binding DiseaseInformationCommand}"
                     Margin="0,260,0,0" HorizontalAlignment="Stretch" BorderBrush="White" Background="{x:Null}" FontStretch="Medium" VerticalAlignment="Top"/>
-
 
 
             </StackPanel>

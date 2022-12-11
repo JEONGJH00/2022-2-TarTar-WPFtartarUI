@@ -35,5 +35,10 @@ namespace WPFtartarUI
         {
 
         }
+
+        private void LoginBtn_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

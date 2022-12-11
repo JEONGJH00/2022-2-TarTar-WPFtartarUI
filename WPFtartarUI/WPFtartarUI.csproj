@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -81,10 +82,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MVVM\View\RecentTartarDataView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MVVM\View\TartarDataView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -99,7 +96,6 @@
     <Compile Include="MVVM\ViewModel\DiseaseInformationViewModel.cs" />
     <Compile Include="MVVM\ViewModel\HomeViewModel.cs" />
     <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
-    <Compile Include="MVVM\ViewModel\RecentTartarDataViewModel.cs" />
     <Compile Include="MVVM\ViewModel\TartarDataViewModel.cs" />
     <Compile Include="MVVM\View\BeforeTartarDataView.xaml.cs">
       <DependentUpon>BeforeTartarDataView.xaml</DependentUpon>
@@ -109,9 +105,6 @@
     </Compile>
     <Compile Include="MVVM\View\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MVVM\View\RecentTartarDataView.xaml.cs">
-      <DependentUpon>RecentTartarDataView.xaml</DependentUpon>
     </Compile>
     <Compile Include="MVVM\View\TartarDataView.xaml.cs">
       <DependentUpon>TartarDataView.xaml</DependentUpon>
@@ -146,9 +139,6 @@
     <Folder Include="MVVM\Model\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Tartar.PNG" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\Disease1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +152,35 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\tooth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Tar2.png" />
+    <Resource Include="Images\Tar3.png" />
+    <Resource Include="Images\Tar4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Tar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Disease5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Disease6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DFloss1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DFloss2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DFloss3.png" />
+    <Resource Include="Images\DFloss4.png" />
+    <Resource Include="Images\DFloss5.png" />
+    <Resource Include="Images\DFloss6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

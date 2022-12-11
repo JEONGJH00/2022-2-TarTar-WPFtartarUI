@@ -6,9 +6,7 @@ namespace WPFtartarUI.MVVM.ViewModel
     class TartarDataViewModel : ObservableObject
     {
         
-        public RelayCommand RecentTartarDataCommand { get; set; }
-
-        public RecentTartarDataViewModel RecentTartarDataVM { get; set; }
+        
         
 
         private object _currentView;
@@ -25,15 +23,7 @@ namespace WPFtartarUI.MVVM.ViewModel
         }
         public TartarDataViewModel()
         {
-            RecentTartarDataVM = new RecentTartarDataViewModel();
-            
-
-            CurrentView = RecentTartarDataVM;
-
-            RecentTartarDataCommand = new RelayCommand(o =>
-            {
-                CurrentView = RecentTartarDataVM;
-            });
+           
 
         }
     }
